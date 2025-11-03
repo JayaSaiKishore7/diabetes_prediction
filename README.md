@@ -135,7 +135,7 @@ Low false negative rate critical for medical applications
 
 
 
-📁 Project Structure
+## 📁 Project Structure
 
 diabetes_prediction/
 │
