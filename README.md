@@ -132,11 +132,8 @@ Notable dependency detected between SerumInsulin and Diabetes outcome
 Model demonstrates robust generalization on test data
 Low false negative rate critical for medical applications
 
-
-
-
 ## 📁 Project Structure
-
+````
 diabetes_prediction/
 │
 ├── data/
@@ -161,6 +158,34 @@ diabetes_prediction/
 ├── main.py                    # FastAPI application
 ├── requirements.txt           # Python dependencies
 └── README.md                  # This file
+````
+````
+
+---
+
+## 🔑 The Key Issue:
+
+You're missing the **triple backticks** (```) before and after the tree structure!
+
+### ❌ Wrong (What you probably have):
+```
+## 📁 Project Structure
+diabetes_prediction/
+│
+├── data/
+```
+
+### ✅ Correct (What you need):
+````
+## 📁 Project Structure
+````
+diabetes_prediction/
+│
+├── data/
+````
+
+
+
 
 📊 Visualizations
 ROC Curve
